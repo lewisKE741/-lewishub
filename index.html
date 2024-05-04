@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lewis Scribe Site Platform</title>
+    
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+      
+        <h1 class="wave-dancing-text ">LEWIS'S SCRIBE SITE</h1>
+       
+
+        <input type="text" id="searchInput" placeholder="Search for papers..." onkeypress="handleKeyPress(event)">
+<button id="searchButton" onclick="search()">Search</button>
+<button id="clearButton" onclick="clearResults()">Clear</button>
+
+<div id="searchResults"></div>
+
+<div id="pagination" class="pagination"></div>
+
+<button id="refreshButton" onclick="refresh()">Refresh</button>
+    </header>
+    <nav>
+        <button style="background-color: #44aa9d;" onclick="showContent('home')">Home</button>
+        <button style="background-color: #44aa9d;" onclick="showContent('about')">About Us</button>
+        <button style="background-color: #44aa9d;" onclick="showContent('exams')">Exams</button>
+        <button style="background-color: #44aa9d;" onclick="showContent('books')">Books</button>
+        <button style="background-color: #44aa9d;" onclick="showContent('contact')">Contact Us</button>
+        <button style="background-color: #44aa9d;" onclick="showContent('blog')">Blog</button><!-- Added button for blog -->
+       
+        
+    </nav>
+    <section id="content">
+        <p id="welcome-message"></p>
+    </section>
+    <div class="chat-container">
+        <div class="chat-messages" id="chat-messages"></div>
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <div class="feedback-container">
+        <h2>Feedback Form</h2>
+        <textarea id="feedback-text" placeholder="Enter your feedback here..." rows="4"></textarea><br>
+        <button onclick="submitFeedback()">Submit Feedback</button>
+    </div>
+    <footer>&copy; 2024 Lewis Scribe Site. All Rights Reserved.</footer>
+    
+    
+   
+    <script src="exams.js"></script>
+</body>
+</html>
+                                
+                                
+                                
+                                
+                                
+                                
+                                

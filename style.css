@@ -1,0 +1,210 @@
+/* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            animation: colorChange 5s infinite;
+            margin: 0;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+
+        header {
+            background-color: #464345;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+
+        
+
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #383438;
+            padding: 10px;
+        }
+
+        section {
+            padding: 20px;
+            border: 2px solid #ffff00;
+            border-radius: 10px;
+            background-color: #575794;
+            color: #fff;
+            text-align: center; /* Center align content */
+        }
+
+        .button {
+            background-color: #660bb1;
+            color: #0fb8ad;
+            padding: 10px 20px;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+            text-align: center
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #c0392b;
+            border-color: #ff7e5f;
+            background-image: linear-gradient(to right, #ff7e5f, #ff7e5f);
+            
+
+
+        }
+
+        .arrow {
+            font-size: 24px;
+            margin: 0 10px;
+        }
+
+        @keyframes colorChange {
+            0% { background-color: #6e626e; }
+            25% { background-color: #588b8b; }
+            50% { background-color: #171a1ba1; }
+            75% { background-color: #20201e; }
+            100% { background-color: #8b9597; }
+        }
+        /* Chatbot styles */
+        .chat-container {
+            background-color: #6b7986;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 20px auto;
+            max-width: 400px;
+            padding: 10px;
+        }
+        .chat-messages {
+            max-height: 300px;
+            overflow-y: scroll;
+            padding: 10px;
+        }
+        .user-message {
+            text-align: right;
+            color: blue;
+        }
+        .bot-message {
+            text-align: left;
+            color: rgb(0, 13, 128);
+        }
+
+        /* Feedback form styles */
+        .feedback-container {
+            margin-top: 20px;
+           
+           
+           
+        }
+
+        header h1 { 
+
+font-family:courier new,courier,monospace;
+
+font-weight:bold;
+
+font-style:;
+
+font-size:2rem ;
+
+background-color: black;
+
+}
+.black {
+    color: black;
+}
+ /* Footer styles */
+ footer {
+            background-color: #333;
+            color: green;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .wave-dancing-text{
+				font-size: 36px;
+				animation: wave-dance 2s infinite alternate;
+			}
+
+			@keyframes wave-dance{
+				0%,{
+					transform: translateX(0) scaleY(1.0);
+				}
+				100%{
+					transform: translateX(10px) scaleY(1.2);
+				}
+			} 
+            
+    #searchInput {
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  #searchButton, #refreshButton, #clearButton {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  #searchResults {
+    margin-top: 20px;
+  }
+  .resultItem {
+    margin-bottom: 8px;
+  }
+  .resultItem a {
+    color: #51775e;
+    text-decoration: none;
+  }
+  .resultItem a:hover {
+    text-decoration: underline;
+  }
+  .pagination {
+    margin-top: 10px;
+  }
+  .pagination button {
+    margin-right: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+   
